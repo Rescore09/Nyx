@@ -48,9 +48,18 @@ A powerful Discord bot that allows authorized users to build custom executable s
 
 ### Installation
 
-1. **Download the repository**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/discord-stub-builder.git
+   cd discord-stub-builder
+   ```
 
-2. **Create a .env file with the following variables**
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Create a .env file with the following variables**
    ```env
    TOKEN=your_discord_bot_token
    GUILD_ID=your_guild_id
@@ -59,10 +68,10 @@ A powerful Discord bot that allows authorized users to build custom executable s
    DEBUG=false  # Set to true for verbose logging
    ```
 
-3. **Create the source.py template file**
+4. **Create the source.py template file**
    This file will be used as a template for building the stubs, with %webhook% placeholder for the webhook URL.
 
-4. **Start the bot**
+5. **Start the bot**
    ```bash
    python main.py
    ```
