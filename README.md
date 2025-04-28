@@ -113,7 +113,7 @@ discord-stub-builder/
     └── builds.json    # Build history
 ```
 
-## TODO
+## 📝 TODO
 - Add a stealer implemented into the source.py
 - Create an easier way to setup the bot.
 - Sleep.
